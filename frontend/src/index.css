@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+}
+.leaflet-container {
+  height: 500px;
+  width: 100%;
+  border-radius: 10px;
+}
