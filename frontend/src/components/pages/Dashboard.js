@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import MapView from '../components/MapView';
+import MapView from '../MapView';
 
 export default function Dashboard() {
   const [lands, setLands] = useState([]);

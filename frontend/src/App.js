@@ -1,13 +1,13 @@
     import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import Dashboard from './pages/Dashboard';
-import RegisterLand from './pages/RegisterLand';
-import VerifyLand from './pages/VerifyLand';
-import TransferLand from './pages/TransferLand';
-import BlockchainExplorer from './pages/BlockchainExplorer';
+import Login from './components/pages/Login';
+import Register from './components/pages/Register';
+import Dashboard from './components/pages/Dashboard';
+import RegisterLand from './components/pages/RegisterLand';
+import VerifyLand from './components/pages/VerifyLand';
+import TransferLand from './components/pages/TransferLand';
+import BlockchainExplorer from './components/pages/BlockchainExplorer';
 
 const PrivateRoute = ({ children }) => {
   const token = localStorage.getItem('token');
